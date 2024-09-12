@@ -57,11 +57,13 @@ class DataIngestorFactory(DataIngestor):
             
             
 if __name__ == "__main__":
-    file_path = "/home/lokesh18/House-Prices-MLOPS/data/archive.zip"
-    file_extension = os.path.splitext(file_path)[1]
+    # file_path = "/home/lokesh18/House-Prices-MLOPS/data/archive.zip"
+    # file_extension = os.path.splitext(file_path)[1]
     
-    data_ingestor = DataIngestorFactory.get_data_ingestor(file_extension)
+    # data_ingestor = DataIngestorFactory.get_data_ingestor(file_extension)
     
-    df = data_ingestor.ingest(file_path)
+    # df = data_ingestor.ingest(file_path)
+     
+    # print(df.head())
     
-    print(df.head())
+    pass
